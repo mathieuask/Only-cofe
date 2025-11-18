@@ -5,7 +5,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 
     // --- CARD HOVER EFFECTS ---
-    const cards = document.querySelectorAll('.card, .option-card, .team-member');
+    const cards = document.querySelectorAll('.summary-card, .team-member-compact, .impact-card, .stakeholder-group, .wbs-column, .risk-card-large, .story-card');
 
     cards.forEach(card => {
         card.addEventListener('mouseenter', function() {

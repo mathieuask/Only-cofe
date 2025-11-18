@@ -7,17 +7,41 @@ Nombre de pages: 3
 PAGE 1
 ================================================================================
 
-1) Pop-Up Café: Plan and manage a temporary café, handling menu design, supply logistics, staﬃng, and customer experience. 1. Pop-Up CaféProblem: No convivial space exists on campus during breaks except smoking areas, which are harmful to health.Opportunity: Create a temporary meeting point offering quality coffee at student-friendly prices to encourage student interaction and replace unhealthy habits.2. StakeholdersCustomers (students/professors): High interest, low power.NEOMA (authorization/location): High power, medium interest.Local suppliers (coffee/pastries): Medium interest, low power.3. Value PropositionAffordable coffee (€1.50 espresso).Fast service (<2 min).Social space (bean bags for chatting and relaxing).4. Success Criteria100 sales per day for one week + 80% customer satisfaction (quick survey).5. Rationale (100 words)I chose this project for its social impact: replacing smoking areas with a healthy, welcoming space. It allows me to develop skills in logistics, marketing, and team management while testing a low-risk entrepreneurial concept. The goal is to enhance student life by providing a practical, affordable, and social alternative.6. Major ChallengesNegotiating a central location with NEOMA.Finding high-quality, low-cost suppliers.Retaining customers despite competition from vending machines.Organizing an effective volunteer team.
+1) Pop-Up Café: Plan and manage a temporary café, handling menu design, supply logistics, staﬃng, and customer experience.
+
+1. Problem
+No convivial space exists on campus during breaks except smoking areas, which are harmful to health.
+
+2. Stakeholders
+Customers (students/professors): High interest, low power.
+NEOMA (authorization/location): High power, medium interest.
+Local suppliers (coffee/pastries): Medium interest, low power.
 
 ================================================================================
 PAGE 2
 ================================================================================
 
-2) Community App or Website Launch: Plan, develop, and launch a functional website for a local community, managing content, user experience, technical resources, and project timelines. 1. Community App or Website LaunchProblem: Information about clubs, events, and registrations is scattered (social media, emails, posters), making access difﬁcult and inefﬁcient.Opportunity: Create a single app to centralize all this data, with real-time notiﬁcations and simpliﬁed access for students.2. StakeholdersStudents: High interest, low power.NEOMA (development): High power, medium interest.Clubs/Associations: High interest, low power.3. Value PropositionStudents: Instant access to all events, registrations, and news in one click.Clubs/Associations: Increased visibility and simpliﬁed member management.NEOMA: Modern image and stronger student engagement.4. Success Criteria50% of students active on the app within 3 months + 100% of clubs registered.
+2) Community App or Website Launch: Plan, develop, and launch a functional website for a local community, managing content, user experience, technical resources, and project timelines.
+
+1. Problem
+Information about clubs, events, and registrations is scattered (social media, emails, posters), making access difﬁcult and inefﬁcient.
+
+2. Stakeholders
+Students: High interest, low power.
+NEOMA (development): High power, medium interest.
+Clubs/Associations: High interest, low power.
 
 ================================================================================
 PAGE 3
 ================================================================================
 
-3) Mini Escape Game: Design and implement a small-scale escape room, coordinating puzzles, layout, testing, and team management. 1. Mini Escape Game: "Titanic – Team Rescue"Problem: Students lack fun, collaborative activities to develop leadership and teamwork skills.Opportunity: An immersive Titanic-themed escape game where teams solve puzzles under pressure to "save passengers."2. StakeholdersStudents (participants): High interest, low power.NEOMA (room/authorization): High power, medium interest.Organizing team/professor: High interest, medium power.3. Value PropositionImmersive experience: Music, shipwreck-inspired puzzles, and a timed challenge.Learning: Develops communication, decision-making, and team cohesion.4. Success Criteria100% of teams save at least 50% of passengers within the time limit + 90% of participants report improved teamwork (post-activity survey).
+3) Mini Escape Game: Design and implement a small-scale escape room, coordinating puzzles, layout, testing, and team management.
+
+1. Problem
+Students lack fun, collaborative activities to develop leadership and teamwork skills.
+
+2. Stakeholders
+Students (participants): High interest, low power.
+NEOMA (room/authorization): High power, medium interest.
+Organizing team/professor: High interest, medium power.
 Translated and reformulated in English with the help of Mistral AI.

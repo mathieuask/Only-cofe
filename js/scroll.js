@@ -5,7 +5,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 
     // --- FADE IN ON SCROLL ---
-    const fadeElements = document.querySelectorAll('.card, .subsection, .team-member, .story-card, .option-card');
+    const fadeElements = document.querySelectorAll('.summary-card, .team-member-compact, .impact-card, .stakeholder-group, .wbs-column, .approach-item, .risk-card-large, .quality-item, .story-card');
 
     const fadeInOnScroll = () => {
         fadeElements.forEach(element => {

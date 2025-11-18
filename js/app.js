@@ -87,7 +87,7 @@ function initScrollAnimations() {
     );
 
     // Observe animated elements
-    const animatedElements = document.querySelectorAll('.card, .team-member, .risk-card, .story-card, .content-block');
+    const animatedElements = document.querySelectorAll('.summary-card, .team-member-compact, .impact-card, .stakeholder-group, .wbs-column, .approach-item, .risk-card-large, .quality-item, .story-card');
 
     animatedElements.forEach(el => {
         el.style.opacity = '0';
