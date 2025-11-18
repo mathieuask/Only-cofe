@@ -1,0 +1,64 @@
+
+============================================================
+FEUILLE: A
+============================================================
+
+ |  |  | Opening up Pop-Up Café |  |  |  |  |  |  |  |  |  |  |  | 
+ | Project Management |  | Setup & Operations |  | Marketing & Evalutation |  |  |  |  |  |  |  |  |  | 
+I. | Approve project charter with sponsor | I. | Constriction of the site | I. | Design promotional materials |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  | Purchase & install furniture | 24 hours (3 days) | 40 hours (5 days) | 80 hours (10 days) | (24 + 4×40 + 80) / 6 = (24 + 160 + 80) / 6 = 264 / 6
+II. | Schedule team meetings and coordinate communication | II. | Purchase & install furniture | II. | Launch social media Campaign |  |  |  |  |  | Order stock | 4 hours (0.5 day) | 8 hours (1 day) | 16 hours (2 days) | (4 + 4×8 + 16) / 6 = (4 + 32 + 16) / 6 = 52 / 6
+ |  |  |  |  |  |  |  |  |  |  | Perform test run of equipment (≥150 cups/day) | 6 hours | 10 hours | 20 hours | (6 + 4×10 + 20) / 6 = (6 + 40 + 20) / 6 = 66 / 6
+III. | Track budget and KPIs weekly | III. | Order Stock | III. | Partner with student clubs for engagement |  |  |  |  |  | Recruit student staff | 16 hours (2 days) | 24 hours (3 days) | 40 hours (5 days) | (16 + 4×24 + 40) / 6 = (16 + 96 + 40) / 6 = 152 / 6
+ |  |  |  |  |  |  |  |  |  |  | Prepare staff schedules | 4 hours | 6 hours | 12 hours | (4 + 4×6 + 12) / 6 = (4 + 24 + 12) / 6 = 40 / 6
+IV. | Compile and submit final report | IV. | Perform test run of equipment (≥150 cups/day) | IV. | Install KPI dashboard |  |  |  |  |  | Train staff | 12 hours (1.5 days) | 20 hours (2.5 days) | 32 hours (4 days) | (12 + 4×20 + 32) / 6 = (12 + 80 + 32) / 6 = 124 / 6
+ |  | V. | Recruit student staff | V. | Perform final evaluation |  |  |  |  |  | Design promotional materials | 12 hours (1.5 days) | 20 hours (2.5 days) | 40 hours (5 days) | Duration = (12 + 4×20 + 40) / 6 = (12 + 80 + 40) / 6 = 132/6 = 22 hours (2.75 days)
+ |  |  |  |  |  |  |  |  |  |  | Launch social media Campaign | 4 hours |  8 hours (1 day) | 16 hours (2 days) | Duration = (4 + 4×8 + 16) / 6 = (4 + 32 + 16) / 6 = 52/6 = 8.67 hours
+ |  | VI. | Prepare staff schedules |  |  |  |  |  |  |  | Partner with student clubs for engagement |  16 hours (2 days) | 24 hours (3 days) | 48 hours (6 days) | Duration = (16 + 4×24 + 48) / 6 = (16 + 96 + 48) / 6 = 160/6 = 26.67 hours (3.33 days)
+ |  |  |  |  |  |  |  |  |  |  | Install KPI dashboard | 6 hours | 10 hours | 20 hours | Duration = (6 + 4×10 + 20) / 6 = (6 + 40 + 20) / 6 = 66/6 = 11 hours
+ |  | VII. | Train staff |  |  |  |  |  |  |  | Perform final evaluation | 8 hours (1 day) | 12 hours (1.5 days) | 24 hours (3 days) | Duration = (8 + 4×12 + 24) / 6 = (8 + 48 + 24) / 6 = 80/6 = 13.33 hours (1.67 days)
+I. | Collect signatures from sponsor & project team | I. | Collect data from operations & marketing | I. | Brainstorm slogan & design concept |  |  |  |  |  |  |  |  |  | 
+ | Align with campus policies/regulations |  | Write draft report |  | Create posters/flyers |  |  |  |  |  |  |  |  |  | 
+ |  |  | Review & submit to sponsor |  | Print/distribute on campus |  |  |  |  |  |  |  |  |  | 
+II. | Create shared calendar |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Assign communication channels | II. | Get supplier offers & quotes | II. | Set up Instagram/TikTok accounts |  |  |  |  |  |  |  |  |  | 
+ |  |  | Buy tables, chairs, counters |  | Design and post daily for intercation |  |  |  |  |  |  |  |  |  | 
+III. | Monitor expenses vs budget plan |  | Install and set up in lounge |  |  |  |  |  |  |  |  |  |  |  | 
+ | Update financial report spreadsheet |  |  | III. | Identify relevant clubs (sports, cultural) |  |  |  |  |  |  |  |  |  | 
+ | Check KPI dashboard weekly | III. | Get prices for orders from suppliers |  | Propose collaboration (discounts/events) |  |  |  |  |  |  |  |  |  | 
+ |  |  | Arrange delivery & storage |  | Set up promotion partnerships |  |  |  |  |  |  |  |  |  | 
+IV. | Collect data from operations & marketing |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | Write draft report | IV. | Run 150-cup trial and adjust settings | IV. | Install hardware (sensors, counters) |  |  |  |  |  |  |  |  |  | 
+ | Review & submit to sponsor |  | Test water & power supply |  | Connect to dashboard software |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  | Test data collection & reporting |  |  |  |  |  |  |  |  |  | 
+ |  | V. | Create job description |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  | Post announcement & collect applications | V. | Collect customer satisfaction surveys |  |  |  |  |  |  |  |  |  | 
+ |  |  | Interview & select candidates |  | Analyze sales & KPI data |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  | Write evaluation & recommendations |  |  |  |  |  |  |  |  |  | 
+ |  | VI. | Identify opening hours coverage |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  | Draft weekly shift plan |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  | Share schedule with staff |  |  |  |  |  |  |  |  |  |  |  | 
+ |  | VII. | Hygiene training |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  | Customer service role play |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  | Walktrough and maintinance routines |  |  |  |  |  |  |  |  |  |  |  | 
+
+============================================================
+FEUILLE: Sheet2
+============================================================
+
+
+============================================================
+FEUILLE: Sheet3
+============================================================
+
+
+============================================================
+FEUILLE: Sheet4
+============================================================
+
+task id | description | o | m | p | expected | start | end
+t1 | approve project cha1rter with sponsor | 1.0 | 3.0 |  | 3.0 | 2025-10-09 00:00:00 | 2025-10-11 00:00:00
+t2 | purchase and install furniture | 3.0 | 8.0 | 5.0 | 2025-10-12 00:00:00 | 2025-10-16 00:00:00 | 
+t3 | track budget and kpis we1ekly | 1.0 | 2.0 | 4.0 | 2025-10-09 00:00:00 | 2025-10-10 00:00:00 | 
+t4 | recruit student staff2 | 2.0 | 3.0 | 7.0 | 4.0 | 2025-10-13 00:00:00 | 2025-10-16 00:00:00
+t5 | launch social media campaign | 1.0 | 2.0 | 3.0 | 2.0 | 2025-10-18 00:00:00 | 2025-10-19 00:00:00

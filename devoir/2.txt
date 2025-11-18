@@ -1,0 +1,529 @@
+PDF: 2.pdf
+Nombre de pages: 16
+================================================================================
+
+
+================================================================================
+PAGE 1
+================================================================================
+
+[Insert  appropriate  Disclaimer(s)]   2  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Only Café  
+By Mathieu, Martin, Tanguy, Albin, Felix  
+Version  1.1 
+09.17.2025  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+================================================================================
+PAGE 2
+================================================================================
+
+<Project Name>  
+Page 2 of 16 
+[Insert  appropriate  disclaimer(s)]   
+ VERSION  HISTORY  
+ 
+ 
+Version 
+# Implemented 
+By Revision 
+Date  Approved 
+By Approval 
+Date  Reason  
+1.1 Ihmsen. F  09.24.25  - -  
+      
+      
+      
+
+================================================================================
+PAGE 3
+================================================================================
+
+<Project Name>  
+Page 3 of 16 
+[Insert  appropriate  disclaimer(s)]   
+ TABLE  OF CONTENTS  
+1 INTRODUCTION  ................................ ................  ERROR!  BOOKMARK  NOT  DEFINED.  
+1.1 Purpose  of Project  Charter  ................................  Error!  Bookmark  not defined.  
+2 PROJECT  OVERVIEW  ................................ ................................ ................................ ... 4 
+3 JUSTIFICATION ................................ ................................ ................................ ..............  4 
+3.1 Business  Need  ................................ ................................ ................................ . 4 
+3.2 Business  Impact  ................................ ................................ ...............................  4 
+3.3 Strategic  Alignment  ................................ ............  Error!  Bookmark  not defined.  
+4 SCOPE  ................................ ................................ ................................ ............................  4 
+4.1 Objectives ................................ ................................ ................................ .........  4 
+4.2 High -Level  Requirements  ................................ ................................ ................  4 
+4.3 Major  Deliverables  ................................ ................................ ...........................  4 
+4.4 Boundaries  ................................ ................................ ................................ ....... 4 
+5 PROJECT  ORGANIZATION  ................................ ................................ ..........................  5 
+5.1 Roles  and Responsibilities  ................................ ................................ ...............  5 
+5.2 Stakeholders  (Internal  and External)  ................................ ...............................  6 
+6 DURATION  ................................ ................................ ................................ ......................  6 
+6.1 Timeline  ................................ ................................ ................................ ............  6 
+6.2 Milestones  ................................ ................................ ................................ ........  6 
+7 BUDGET ESTIMATE  ................................ ................................ ................................ ...... 7 
+7.1 Funding  Source  ................................ ................................ ................................  7 
+7.2 Estimate  ................................ ................................ ................................ ...........  7 
+8 ASSUMPTIONS,  CONSTRAINTS  AND  RISKS  ................................ ............................  7 
+8.1 Assumptions  ................................ ................................ ................................ ..... 7 
+8.2 Constraints  ................................ ................................ ................................ ....... 7 
+8.3 Risks  ................................ ................................ ................................ .................  7 
+9 PROJECT  CHARTER  APPROVAL  ................................ ................................ ...............  9 
+APPENDIX A:  REFERENCES  ................................ ................................ ..........................  10 
+APPENDIX  B: KEY TERMS  ................................ ................................ .............................  11 
+
+================================================================================
+PAGE 4
+================================================================================
+
+<Project Name>  
+Page 4 of 16 
+[Insert  appropriate  disclaimer(s)]   
+  
+1 PROJECT  AND  PRODUCT  OVERVIEW  
+Only Café  is a pilot project that sets up a minimalist, pop -up coffee shop in the busiest spot 
+on each campus (one café per campus, two campuses in total). Open from 8 a.m. to 4 p.m., 
+it offers students and professors a simple, efficient coffee break: four types of  coffee in 
+three sizes (€1.50, €2.00, €2.50), with no pastries or distractions.  
+The idea? A space to enjoy a good coffee in just two minutes, sit down to chat, or get 
+some light work done, all in a relaxed atmosphere.  
+When?  A 6-month trial to test the concept’s viability.  
+Estimated budget:  ~€5,000 (equipment, coffee, student staff).  
+Goal:  Sell 150 coffees per day per campus, and create a natural meeting spot between 
+classes in the heart of campus life.  
+ 
+2 JUSTIFICATION  
+2.1 BUSINESS  NEED  
+Students and professors have no healthy space for their breaks, often resorting to smoking  
+areas or hallways. According to them, the current coffee machines do not provide coffee of  
+sufficient quality. Only Café fills this gap by offering a friendly meeting place that  
+encourages interaction and enhances daily life on campus.  
+2.2 BUSINESS  IMPACT  
+- For users: Less isolation, more social connections, and a healthy alternative  
+to unproductive breaks, with the option to buy higher -quality coffee at a  
+Slightly higher price than from regular vending machines  
+- For the school: A better image and reputation, thanks to a more dynamic  
+campus that cares about well -being.  
+- Expected results: 150 coffees sold per day per campus, 80% satisfaction  
+rate, and a decrease in the use of smoking areas. A project that enhances the  
+student experience and boosts positive reviews.  
+3 SCOPE  
+3.1 OBJECTIVES  
+The objectives  of the Only Caf é are as follows:  
+
+================================================================================
+PAGE 5
+================================================================================
+
+<Project Name>  
+Page 5 of 16 
+[Insert  appropriate  disclaimer(s)]   
+ • Install alternative: Deploy a smoke -free coffee corner within ≤60 m of work areas by Week 
+3.  
+• Redirect smoking flow: Relocate and clearly signpost existing smoking areas to less 
+central locations by Week 3.  
+• Adoption: Achieve ≥200 uses/day of the coffee corner by Week 6 (rolling 5 -day average).  
+• Behavioral shift: Reduce off -site cigarette breaks by ≥25% vs baseline by Week 12.  
+3.2 HIGH -LEVEL  REQUIREMENTS  
+The following table  presents  the requirements that  the project’s product,  service  or 
+result  must  meet  in order  for the project  objectives  to be satisfied.  
+Req. # Requirement  Description  
+1 Space & utilities: 100% non -smoking zone; power 230V/16A; nearby water 
+access; compliant with accessibility and fire safety.  
+2 Equipment & throughput: Commercial coffee machine (beans or filter) ≥1 50 
+cups/ day; cashless/QR payments; optional employer subsidy (target price 
+€0.50 –€1.00/cup).  
+3 Wayfinding & nudges: Clear directional signage (“Coffee Break+” vs 
+“Smoking area →” with distance), reposition smoking area to create mild 
+friction.  
+4 Measurement: Cup counter + people sensor or QR check -in feeding a 
+lightweight dashboard (traffic, cups, estimated time saved).  
+5 Operations: Daily cleaning & restock; basic HACCP; waste sorting 
+(recycling/compost); odor/noise control.  
+6 Look & feel: Simple furniture (high tables/shelves), bins, soft décor that 
+makes the corner inviting.  
+7 Compliance: HSE/Quality approval of installation, signage, and hygiene 
+procedures.  
+3.3 MAJOR  DELIVERABLES  
+The following  table  presents  the major  deliverables  that the project’s  product,  
+service  or result  must  meet  in order  for the project  objectives  to be satisfied.  
+ 
+Major  Deliverable  Deliverable  Description  
+Layout & Signage Kit (W2)  
+Site plan and wayfinding map; print -ready signage 
+files (A3/A4 + foam board specs). Acceptance:  
+Facilities & HSE approval.  
+Operational Coffee Corner (W3)  Coffee machine installed; power/water tested; 
+furniture & bins in place; signage mounted; soft 
+décor. Acceptance: ≥50 -cup test run; cleaning 
+checklist validated.  
+KPI Dashboard (W4)  Live metrics (visits/day, cups/day, estimated time 
+saved) with weekly auto -report; CSV/PDF export; 
+refresh ≤24h. Acceptance: Data quality spot -check 
+passed.  
+Mid-Pilot Review (W6)   
+Usage analysis; pain points; adjustment plan 
+(pricing, placement, micro -events) with owners & 
+
+================================================================================
+PAGE 6
+================================================================================
+
+<Project Name>  
+Page 6 of 16 
+[Insert  appropriate  disclaimer(s)]   
+ dates. Acceptance: Action plan agreed by 
+Sponsor & Facilities.  
+ 
+Final Report & Rollout 
+Recommendation (W12)  Impact vs baseline (target ≥25% reduction in off -
+site smoke breaks), ROI, lessons learned, scale 
+plan. Acceptance: Sponsor go/no -go decision.  
+3.4 BOUNDARIES  
+• Clinical smoking -cessation programs, policy enforcement/penalties, heavy 
+HVAC/building works, external public -space infrastructure.  
+• Company -wide policy changes beyond pilot site.  
+• Full catering beyond hot beverages (snacks/tea only as optional future add -ons).
+
+================================================================================
+PAGE 7
+================================================================================
+
+<Project Name>  
+Page 7 of 16 
+[Insert  appropriate  disclaimer(s)]   
+ 4 PROJECT  ORGANIZATION  
+4.1 ROLES  AND  RESPONSIBILITIES  
+This section  describes  the key roles  supporting  the project.  
+Name  & 
+Organization  Project  Role Project  Responsibilities  
+NEOMA 
+Business 
+School  Project 
+Owner/Sponsor  The Sponsor has to provide approval and 
+support. Also secure the funding or 
+authorize budget. Moreover the owner 
+approves deliverables (concept, safety 
+compliance and closure report ). Ensure the 
+project aligns with campus policies and 
+regulations.   
+Mathieu  Project Manager/ 
+Coord inator  The project manager oversees the entire 
+pop-up café project, ensuring that 
+objectives, deadlines, and budgets are 
+respected. They coordinate communication 
+between all stakeholders, make key 
+decisions, and are ultimately accountable 
+for the project’s success.  
+Martin  Operations and 
+Logistics Lead  The operations and logistics lead is 
+responsible for the physical setup and day -
+to-day functioning of the café. They secure 
+the location, manage equipment and 
+supplies, and ensure smooth coordination 
+with vendors and delivery schedules.  
+Albin  Finance and Budget 
+Lead  The finance lead manages all financial 
+aspects of the project, from creating the 
+initial budget to tracking expenses and 
+revenues. They ensure cost efficiency, 
+control cash flow, and provide transparent 
+financial reporting for the group and 
+sponsor.  
+Tanguy  Marketing and 
+Communications Lead  The marketing and communications lead 
+develops and executes strategies to attract 
+customers to the café. They design 
+promotional materials, manage social 
+media campaigns, and engage with the 
+campus community to create awareness 
+and drive foot traffic.  
+Felix  Human Resources 
+and Staffing Lead  The HR and staffing lead organizes the 
+project team’s work by preparing staff 
+
+================================================================================
+PAGE 8
+================================================================================
+
+<Project Name>  
+Page 8 of 16 
+[Insert  appropriate  disclaimer(s)]   
+ schedules and assigning responsibilities. 
+They oversee basic training, maintain team 
+motivation, and ensure adequate staffing 
+levels during operating hours.  
+
+================================================================================
+PAGE 9
+================================================================================
+
+<Project Name>  
+Page 9 of 16 
+[Insert  appropriate  disclaimer(s)]   
+  
+Name  & 
+Organization  Project  Role Project  Responsibilities  
+Tanguy  Quality and Customer 
+Experience Lead  The quality and customer experience lead 
+focuses on delivering high standards in 
+products and services. They design the 
+menu, ensure compliance with hygiene and 
+safety regulations, and collect customer 
+feedback to improve the café’s overall 
+experience.  
+4.2 STAKEHOLDERS  (INTERNAL  AND  EXTERNAL)  
+Internal Stakeholders:  
+• Student Project Team  – responsible for planning, execution, and daily operations.  
+• Project Manager (student leader)  – accountable for project coordination and delivery.  
+• University Administration / Student Union  – project sponsor, provides approval and 
+oversight.  
+• Other Students Involved (volunteers, staff)  – support with operations, customer 
+service, or setup.  
+• Faculty Advisor / Course Instructor  – academic stakeholder, evaluates project results 
+and learning outcomes.  
+External Stakeholders:  
+• Suppliers / Vendors  (coffee roasters, bakery, equipment rental companies) – provide 
+products and materials.  
+• Campus Facilities & Safety Office  – ensures compliance with health, safety, and food 
+regulations.  
+• Local Authorities / Regulatory Agencies  (if required) – may issue temporary permits 
+for food handling or sales.  
+• Customers (students, faculty, staff, visitors)  – target group, directly consume and 
+evaluate the café.  
+• Potential Partners / Sponsors  (local businesses, student clubs) – may support with 
+funding, discounts, or promotion.  
+ 
+5 DURATION  
+5.1 TIMELINE  
+
+================================================================================
+PAGE 10
+================================================================================
+
+<Project Name>  
+Page 10 of 16 
+[Insert  appropriate  disclaimer(s)]   
+  
+ 
+ 
+5.2 MILESTONES  
+ 
+Milestones  Estimated  Completion  Timeframe  
+Project Charter Approved  End of Week 1  
+
+
+================================================================================
+PAGE 11
+================================================================================
+
+<Project Name>  
+Page 11 of 16 
+[Insert  appropriate  disclaimer(s)]   
+  
+Milestones  Estimated  Completion  Timeframe  
+Suppliers and Menu Finalized  Mid of Week 3  
+Marketing Campaign Launched  End of Week 4  
+Café Setup Completed  Day 1 of Week 5  
+Café Opening Event  Beginning of Week 5  
+Mid-Operation Review  Mid of Week 5  
+Café Closure and Teardown  End of Week 5 (or Week 6)  
+Final Project Report Submitted  End of Week 6  
+6 BUDGET  ESTIMATE  
+6.1 FUNDING  SOURCE  
+NEOMA SCHOOL will support our project financially to offer good services for their 
+students'  wellbeing  and to improve their reputation.  Moreover, we can pay back our 
+investment by the profit of the coffee.  
+6.2 ESTIMATE  
+This section provides a summary of estimated spending to meet the objectives of 
+the “Only Caf é” project as described in this project charter.  This summary of 
+spending is preliminary and should reflect costs for the  entire  investment lifecycle. 
+It is intended to present probable funding requirements and to assist in obtaining 
+budget  support.  
+We already have at our disposal a room for the cafe, a lounge and an outside space for students 
+to drink coffee.  
+However, we still need furniture investment , to arrange the lounge (inside and outsiede ),  the 
+coffee machin, the fridge to stock the milk, and the decoration.  
+List: 
+1. Space Setup (Furniture & Decoration)  
+- Furniture (tables, chairs, counter, shelves, etc.): €2000  
+- Decoration (wall art, lighting, ambiance): €500 
+- Drinking area setup (counter, lounge area): €3,000  
+2. Coffee & Beverage Equipment  
+- Coffee machines, grinder, etc.: €2000  
+- Additional equipment (fridge, shelves, etc.): €2000  
+4. Initial Supplies & Stock  
+- Coffee, milk, sugar, tea, etc.: €1,000  
+- Packaging (cups, napkins, etc.): €500 
+6. Miscellaneous Costs  
+- Point of sale (POS) system, cash register: €500 
+TOTAL:  10 500 euros  
+6.3 ASSUMPTIONS  
+
+================================================================================
+PAGE 12
+================================================================================
+
+<Project Name>  
+Page 12 of 16 
+[Insert  appropriate  disclaimer(s)]   
+ This section identifies the statements believed to be true and from which a 
+conclusion was drawn to define this project charter.  
+• Student like good coffee while working  
+• The school will accept to be the owner of the coffee.  
+• Students will accept to work in the cafe as employes.  
+6.4 CONSTRAINTS  
+This section identifies any limitations  that must be taken into consideration prior to 
+the initiation of the project.  
+• Budget/Funding Constraints.  
+• Time Constraints. (Setting up/ Opening hours)  
+• Legal / Regulatory Constraints.  
+• Competition  Constraints . 
+• Human Capital Constraints.  
+ 
+6.5 RISKS  
+The table below presents the known risk which could have a major impact on the 
+outcome of the project and associated mitigation strategy that the business 
+sponsor/project team will take to manage them.
+
+================================================================================
+PAGE 13
+================================================================================
+
+<Project Name>  
+Page 13 of 16 
+[Insert  appropriate  disclaimer(s)]   
+  
+Risk Mitigation  
+Health & Safety Violations  Train staff on hygiene, follow campus food safety rules, and 
+schedule regular inspections. Also , have a clear cleaning 
+and maintenance schedule put in place.  
+Staffing Shortage  Recruit student volunteers or part -time staff in advance and  
+create a flexible work schedule that fits their studies.  
+Low Student Engagement  Conduct surveys before launch, organize promotional  
+events, and offer loyalty cards or discounts. Involve 
+students to impact the café.  
+Exceeding Budget  Prioritize essential equipment, seek sponsorships or 
+student funding, start small and scale up gradually.  
+High competition / Substitute  Offer unique selling points: student -friendly prices, cozy 
+space, quick service, fresh products, and unique 
+promotions and events.  
+Unexpected Maintenance 
+Costs  Set aside a contingency fund, perform regular inspections 
+and preventative maintenance  
+Supply Chain Disruptions  
+(Supply Shortage)  Have backup suppliers, maintain safety stock, order in 
+advance  
+Weather or Seasonal Effects  Adjust marketing/promotions to peak times, consider 
+seasonal menu or hot/cold beverages  
+
+================================================================================
+PAGE 14
+================================================================================
+
+<Project Name>  
+Page 14 of 16 
+[Insert  appropriate  disclaimer(s)]   
+ 7 PROJECT  CHARTER  APPROVAL  
+The undersigned acknowledge they have reviewed the project charter and authorize 
+and fund the <Project Name> project.  The undersigned herby give the project 
+manager the authority to apply the approved level of organizational resources to 
+project activities. Changes to this project charter will be coordinated with and 
+approved by the undersigned or their designated represe ntatives.  
+[List the individuals whose signatures are desired.  Examples of such individuals are 
+Business Sponsor and Project Manager.  Add additional lines for signature as 
+necessary. Although signatures are desired, they are not always required to move 
+forward with the practices outlined within this document.]  
+ 
+Signature:  Date:  
+Print Name: 
+Title:  
+Role:  
+ 
+ 
+Signature:  Date:  
+Print Name: 
+Title:  
+Role:  
+ 
+ 
+Signature:  Date:  
+Print Name: 
+Title:  
+Role:  
+ 
+
+================================================================================
+PAGE 15
+================================================================================
+
+<Project Name>  
+Page 15 of 16 
+[Insert  appropriate  disclaimer(s)]   
+ APPENDIX  A: REFERENCES  
+[Insert  the name,  version  number,  description,  and physical  location  of any 
+documents referenced in this document.  Add rows to the table as necessary.]  
+The following  table  summarizes  the documents  referenced  in this document.  
+Document 
+Name  and 
+Version  Description  Location  
+<Document 
+Name and 
+Version 
+Number>  [Provide  description  of the 
+document]  <URL  or Network  path where 
+document is located>  
+
+================================================================================
+PAGE 16
+================================================================================
+
+<Project Name>  
+Page 16 of 16 
+[Insert  appropriate  disclaimer(s)]   
+ APPENDIX  B: KEY TERMS  
+ 
+The following  table  provides  definitions  for terms  relevant  to this document.  
+ 
+Term  Definition  
+Behavioral Shift   
+  
+  
+ 

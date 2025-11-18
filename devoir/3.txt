@@ -1,0 +1,38 @@
+
+============================================================
+FEUILLE: Tabelle1
+============================================================
+
+ |  |  | Opening up Pop-Up Café  |  |  |  | Level 0 
+ | Project Management |  | Setup & Operations  |  | Marketing & Evalutation  |  | Level 1
+I.  | Approve project charter with sponsor | I.  | Constriction of the site | I.  | Design promotional materials |  | Level 2
+II.   | Schedule team meetings and coordinate communication | II. | Purchase & install furniture | II. | Launch social media Campaign |  | 
+III.  | Track budget and KPIs weekly | III. | Order Stock | III. | Partner with student clubs for engagement |  | 
+IV.  | Compile and submit final report | IV. | Perform test run of equipment (≥150 cups/day) | IV. | Install KPI dashboard |  | 
+ |  | V. | Recruit student staff | V.  | Perform final evaluation |  | 
+ |  | VI. | Prepare staff schedules |  |  |  | 
+ |  | VII. | Train staff |  |  |  | 
+I.  | Collect signatures from sponsor & project team | I.  | Collect data from operations & marketing | I.  | Brainstorm slogan & design concept |  | Level 3
+ | Align with campus policies/regulations |  | Write draft report |  | Create posters/flyers |  | 
+ |  |  | Review & submit to sponsor |  | Print/distribute on campus |  | 
+II. | Create shared calendar |  |  |  |  |  | 
+ | Assign communication channels | II. | Get supplier offers & quotes | II.  | Set up Instagram/TikTok accounts |  | 
+ |  |  | Buy tables, chairs, counters |  | Design and post daily for intercation |  | 
+III. | Monitor expenses vs budget plan |  | Install and set up in lounge |  |  |  | 
+ | Update financial report spreadsheet |  |  | III. | Identify relevant clubs (sports, cultural) |  | 
+ | Check KPI dashboard weekly | III. | Get prices for orders from suppliers |  | Propose collaboration (discounts/events) |  | 
+ |  |  | Arrange delivery & storage |  | Set up promotion partnerships |  | 
+IV. | Collect data from operations & marketing |  |  |  |  |  | 
+ | Write draft report | IV. | Run 150-cup trial and adjust settings | IV. | Install hardware (sensors, counters) |  | 
+ |  Review & submit to sponsor |  | Test water & power supply |  | Connect to dashboard software |  | 
+ |  |  |  |  | Test data collection & reporting |  | 
+ |  | V. | Create job description |  |  |  | 
+ |  |  | Post announcement & collect applications | V.  | Collect customer satisfaction surveys |  | 
+ |  |  | Interview & select candidates |  | Analyze sales & KPI data |  | 
+ |  |  |  |  | Write evaluation & recommendations |  | 
+ |  | VI. | Identify opening hours coverage |  |  |  | 
+ |  |  | Draft weekly shift plan |  |  |  | 
+ |  |  | Share schedule with staff |  |  |  | 
+ |  | VII. | Hygiene training |  |  |  | 
+ |  |  | Customer service role play |  |  |  | 
+ |  |  | Walktrough and maintinance routines |  |  |  | 

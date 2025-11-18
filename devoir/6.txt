@@ -1,0 +1,14 @@
+User Stories – Only Café
+Albin, Felix, Tanguy, Martin, Mathieu
+
+As a barista, I want a clear and organized order queue, so that I can prepare drinks accurately and efficiently without confusion.
+As a visitor, I want seasonal or limited-edition menu items, so that every visit feels unique and exciting.
+As a customer, I want clear pricing on the menu, so that I can make informed purchasing decisions.
+As a café manager, I want to track peak hours, so that we can adjust staffing and avoid long lines.
+As a customer, I want to customize my drinks easily, so that I get exactly what I want.
+As a social media manager, I want to run flash promotions, so that we attract foot traffic during slow hours.
+As a supplier, I want a flexible delivery schedule, so that we can handle pop-up events without running out of stock.
+As a customer, I want a cozy, aesthetic seating area with charging points, so that I can work or study comfortably.
+As a manager, I want real-time customer feedback via QR codes, so that we can quickly improve the pop-up experience.
+As a staff member, I want an organized system for handling online and in-person orders, so that no order gets lost during busy periods.
+

@@ -1,0 +1,230 @@
+PDF: 7.pdf
+Nombre de pages: 3
+================================================================================
+
+
+================================================================================
+PAGE 1
+================================================================================
+
+RISK REGISTER & QUALITY CRITERIA
+ Pop-Up Café Project
+ Reims, France
+ 
+Project Team: Mathieu, Tanguy, Martin, Albin, Felix
+TABLE 1: RISK REGISTER
+ID
+Risks
+Freq.
+Impac
+t
+Scor
+e
+Mitigation
+Contingency
+Owner
+1
+Permit delays
+7
+9
+63
+Early contact with city hall;
+Prepare docs in advance
+2-week buffer; Plan B:
+packaged goods only
+Mathieu
+2
+Unreliable
+suppliers
+6
+7
+42
+2-3 backup suppliers;
+Order early
+Emergency contacts;
+2-day safety stock
+Tanguy
+3
+Low customer
+demand
+5
+8
+40
+Intensive marketing;
+Partnerships; Low prices
+Reduce hours; Flash
+promotions
+Martin
+4
+Staff absence/untr
+ained
+6
+6
+36
+Full training; Backup staff
+identified
+Project team covers
+shifts
+Albin
+5
+Budget overrun
+7
+6
+42
+Weekly tracking; Negotiate
+discounts
+Reduce hours; Simplify
+menu
+Felix
+6
+Equipment failure
+4
+9
+36
+Test 3 days before;
+Maintenance
+Rent backup equipment
+Tanguy
+7
+Bad weather
+5
+5
+25
+Check forecast; Indoor
+space ready
+Cancel if extreme
+conditions
+Mathieu
+8
+Hygiene violations
+3
+10
+30
+HACCP training; Daily
+checklist
+Close if serious;
+Immediate fix
+Albin
+Scale: Frequency & Impact = 1-10 (1=very low, 10=very high) | Score = Frequency × Impact
+
+
+================================================================================
+PAGE 2
+================================================================================
+
+DETAILED DESCRIPTION OF TOP 5 RISKS
+RISK #1: Permit Delays
+Project requires multiple authorizations (campus temporary occupation, health certificate, DDPP declaration). Administrative
+delays in Reims can be long.
+Frequency: 7/10 - French administration known for delays. Little margin on short project.
+Impact: 9/10 - Without permits, project cannot start. Risk of cancellation.
+Mitigation: Contact city hall and campus from week 1; Prepare documents in advance; Weekly follow-up; Identify key
+contacts.
+Contingency: 2-week buffer in schedule; Plan B: "distribution only" model with pre-packaged goods; Negotiate partial
+opening.
+RISK #2: Unreliable Suppliers
+Regular deliveries needed (coffee, milk, cups). A failing supplier paralyzes operations.
+Frequency: 6/10 - Local suppliers may have stock/logistics issues for small orders.
+Impact: 7/10 - Without stock, cannot serve customers. Revenue loss and credibility damage.
+Mitigation: List 2-3 backup suppliers per product; Order 3-4 days ahead; Clear contracts; Check references.
+Contingency: Emergency contacts (Metro, Reims suppliers); 2-day safety stock; Supermarket purchase as last resort.
+RISK #3: Low Customer Demand
+If <50-100 customers/day, revenue does not cover costs. Concept may not interest students or communication insufficient.
+Frequency: 5/10 - Innovative project but uncertain attraction. Depends on marketing.
+Impact: 8/10 - Low traffic = financial failure and unmet objectives.
+Mitigation: Intensive marketing 2 weeks before; Student partnerships; Competitive prices (€1.50 vs €3); Attractive opening
+offer; Strategic location.
+Contingency: Reduce hours if few customers; Flash promotions (happy hour); Events (quiz, music); Adjust menu.
+RISK #4: Staff Absence or Poorly Trained
+Café depends on volunteer/low-paid students. Possible absences (exams, illness) or lack of service mastery.
+Frequency: 6/10 - Students = variable schedule, low professional reliability.
+Impact: 6/10 - Degraded service, unhappy customers, but project team can compensate.
+Mitigation: 3-4h training 2 days before opening; Simple manual; 2-3 backup people; Clear schedule; Buddy system.
+Contingency: 5 team members (Mathieu, Tanguy, Martin, Albin, Felix) ready to replace; Simplify tasks; Internal replacement.
+RISK #5: Budget Overrun
+Costs may explode (expensive equipment, wasted stock, costly permits). Student budget tight.
+Frequency: 7/10 - First entrepreneurial project = poor estimation of real costs.
+Impact: 6/10 - May reduce project duration or quality, rarely fatal.
+Mitigation: Detailed budget with 15% margin; Weekly Excel tracking; Negotiate student discounts; Sponsors/university
+support; Prioritization.
+Contingency: Reduce hours to save; Simplify menu; Increase prices if necessary; Student crowdfunding.
+
+
+================================================================================
+PAGE 3
+================================================================================
+
+TABLE 2: QUALITY CRITERIA
+Quality Criterion
+Type
+Metric
+Target
+Acceptable
+Variance
+Corrective Action
+Owner
+Customer wait time
+Performance
+Average
+minutes
+< 3 min
+5 min max
+Add staff; Simplify
+menu
+Martin
+Coffee temperature
+Features
+Temperature °C
+65-75°C
+60-80°C
+Adjust machine; Staff
+training
+Tanguy
+Cleanliness &
+hygiene
+Reliability
+Daily checklist
+/10
+10/10
+9/10 min
+Immediate cleaning;
+Remind procedures
+Albin
+Customer
+satisfaction
+Performance
+Survey score
+1-5
+4.5/5
+4/5 min
+Analyze feedback;
+Quick adjustments
+Felix
+Product availability
+Reliability
+% in stock
+100%
+95%
+Emergency order;
+Adjust menu
+Tanguy
+Opening time
+respect
+Serviceability
+Minutes late
+0 min
+5 min max
+Arrive 30min early;
+Pre-opening checklist
+Mathieu
+Health compliance
+Conformance
+HACCP yes/no
+100%
+100% (non-n
+egotiable)
+Immediate training;
+Close if serious
+Albin
+ Document created for Pop-Up Café Project - Reims 2025
+ 

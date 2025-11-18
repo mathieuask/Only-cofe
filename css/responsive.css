@@ -1,0 +1,361 @@
+/* ============================================
+   ONLY CAFÉ - RESPONSIVE DESIGN
+   Mobile-First Approach
+   ============================================ */
+
+/* --- TABLET (768px - 1024px) --- */
+@media (max-width: 1024px) {
+    :root {
+        --spacing-xl: 3rem;
+    }
+
+    .container {
+        padding: var(--spacing-sm);
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    /* Tables scrollables sur tablette */
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    /* Grilles adaptatives */
+    .team-grid,
+    .project-options {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .methodology-comparison {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* --- MOBILE (< 768px) --- */
+@media (max-width: 768px) {
+    :root {
+        --spacing-sm: 0.75rem;
+        --spacing-md: 1.5rem;
+        --spacing-lg: 2rem;
+        --spacing-xl: 2.5rem;
+    }
+
+    html {
+        font-size: 14px;
+    }
+
+    /* Typographie mobile */
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    /* Header mobile */
+    header {
+        padding: var(--spacing-lg) var(--spacing-sm);
+    }
+
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    /* Container mobile */
+    .container {
+        padding: var(--spacing-sm);
+    }
+
+    .section {
+        padding: var(--spacing-lg) 0;
+    }
+
+    /* Cards & Grilles mobile */
+    .card {
+        padding: var(--spacing-sm);
+    }
+
+    .team-grid,
+    .project-options,
+    .user-stories {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-sm);
+    }
+
+    .methodology-comparison {
+        grid-template-columns: 1fr;
+    }
+
+    /* Tables mobile - scroll horizontal */
+    table {
+        font-size: 0.9rem;
+    }
+
+    th, td {
+        padding: var(--spacing-xs) var(--spacing-sm);
+        font-size: 0.85rem;
+    }
+
+    /* WBS mobile */
+    .wbs-level {
+        margin-left: var(--spacing-sm);
+        padding-left: var(--spacing-sm);
+    }
+
+    /* Budget summary mobile */
+    .budget-summary {
+        padding: var(--spacing-md);
+    }
+
+    .budget-summary h3 {
+        font-size: 2rem;
+    }
+
+    .budget-summary p {
+        font-size: 1rem;
+    }
+
+    /* Badges mobile */
+    .badge {
+        font-size: 0.8rem;
+        padding: 4px 10px;
+    }
+
+    /* Buttons mobile */
+    .btn {
+        width: 100%;
+        text-align: center;
+        padding: var(--spacing-sm);
+    }
+
+    /* User stories mobile */
+    .story-card {
+        padding: var(--spacing-sm);
+    }
+
+    .story-card p {
+        font-size: 0.9rem;
+    }
+
+    /* Scenarios mobile */
+    .scenario {
+        padding: var(--spacing-sm);
+    }
+
+    /* Footer mobile */
+    footer, .conclusion {
+        padding: var(--spacing-lg) var(--spacing-sm);
+    }
+
+    /* Lists mobile */
+    ul {
+        padding-left: var(--spacing-md);
+    }
+
+    /* Highlight boxes mobile */
+    .highlight {
+        padding: var(--spacing-sm);
+        margin: var(--spacing-sm) 0;
+    }
+
+    /* Key takeaway mobile */
+    .key-takeaway {
+        padding: var(--spacing-md);
+        font-size: 1rem;
+    }
+}
+
+/* --- SMALL MOBILE (< 480px) --- */
+@media (max-width: 480px) {
+    :root {
+        --spacing-sm: 0.5rem;
+        --spacing-md: 1rem;
+        --spacing-lg: 1.5rem;
+        --spacing-xl: 2rem;
+    }
+
+    html {
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .container {
+        padding: var(--spacing-xs);
+    }
+
+    /* Tables très petits écrans - simplification */
+    table {
+        font-size: 0.8rem;
+    }
+
+    th, td {
+        padding: 6px 8px;
+        font-size: 0.75rem;
+    }
+
+    /* Cards très compactes */
+    .card {
+        padding: var(--spacing-xs);
+        margin-bottom: var(--spacing-sm);
+    }
+
+    /* Team members stack */
+    .team-member {
+        padding: var(--spacing-sm);
+    }
+
+    /* Budget summary compact */
+    .budget-summary h3 {
+        font-size: 1.5rem;
+    }
+
+    /* Reduce shadows on small screens */
+    .card:hover,
+    .team-member:hover {
+        transform: none;
+        box-shadow: var(--shadow-sm);
+    }
+}
+
+/* --- PRINT STYLES --- */
+@media print {
+    body {
+        background: white;
+        color: black;
+    }
+
+    .section {
+        page-break-inside: avoid;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .card {
+        box-shadow: none;
+        border: 1px solid #ccc;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    header {
+        background: white;
+        color: black;
+        border-bottom: 3px solid #4A3728;
+    }
+
+    header h1 {
+        color: #4A3728;
+        text-shadow: none;
+    }
+
+    table {
+        page-break-inside: avoid;
+    }
+
+    a {
+        text-decoration: underline;
+        color: black;
+    }
+}
+
+/* --- LANDSCAPE MOBILE --- */
+@media (max-width: 768px) and (orientation: landscape) {
+    header {
+        padding: var(--spacing-md) var(--spacing-sm);
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .section {
+        padding: var(--spacing-md) 0;
+    }
+}
+
+/* --- PREFERENCES UTILISATEUR --- */
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+/* Dark mode support (optionnel) */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-background: #1a1410;
+        --color-text: #e8e6e3;
+        --color-white: #2a2420;
+    }
+
+    body {
+        background: var(--color-background);
+        color: var(--color-text);
+    }
+
+    .card,
+    .team-member,
+    table {
+        background: var(--color-white);
+    }
+
+    .section:nth-child(odd) {
+        background: #1a1410;
+    }
+
+    .section:nth-child(even) {
+        background: #2a2420;
+    }
+}
