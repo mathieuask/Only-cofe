@@ -24,35 +24,83 @@ function initProgressBar() {
     });
 }
 
-// === NAVIGATION DOTS ===
+// === NAVIGATION DOTS (Landing Page Horizontal) ===
 function initNavigationDots() {
-    const dots = document.querySelectorAll('.nav-dots .dot');
+    const dots = document.querySelectorAll('.nav-dot');
+    const slider = document.querySelector('#landingSlider');
+    const pages = document.querySelectorAll('.landing-page');
 
-    // Only initialize if navigation dots exist
-    if (dots.length === 0) return;
+    console.log('Dots:', dots.length);
+    console.log('Slider:', slider);
+    console.log('Pages:', pages.length);
 
-    const sections = document.querySelectorAll('section[id]');
+    if (!slider || !dots || dots.length === 0 || !pages || pages.length === 0) {
+        console.log('Missing elements for navigation dots');
+        return;
+    }
 
-    // Update active dot on scroll
-    window.addEventListener('scroll', () => {
-        let current = '';
+    // Click sur un dot pour naviguer
+    dots.forEach((dot, index) => {
+        dot.addEventListener('click', (e) => {
+            e.preventDefault();
+            console.log('Clicked dot:', index);
 
-        sections.forEach(section => {
-            const sectionTop = section.offsetTop;
-            const sectionHeight = section.clientHeight;
+            const scrollAmount = index * window.innerWidth;
+            slider.scrollTo({
+                left: scrollAmount,
+                behavior: 'smooth'
+            });
 
-            if (window.scrollY >= sectionTop - 200) {
-                current = section.getAttribute('id');
-            }
-        });
-
-        dots.forEach(dot => {
-            dot.classList.remove('active');
-            if (dot.getAttribute('href') === `#${current}`) {
-                dot.classList.add('active');
-            }
+            // Update active state
+            dots.forEach(d => d.classList.remove('active'));
+            dot.classList.add('active');
         });
     });
+
+    // Update active dot on scroll
+    let ticking = false;
+    slider.addEventListener('scroll', () => {
+        if (!ticking) {
+            window.requestAnimationFrame(() => {
+                const scrollLeft = slider.scrollLeft;
+                const pageWidth = window.innerWidth;
+                const currentIndex = Math.round(scrollLeft / pageWidth);
+
+                console.log('Scroll index:', currentIndex);
+
+                dots.forEach((dot, index) => {
+                    if (index === currentIndex) {
+                        dot.classList.add('active');
+                    } else {
+                        dot.classList.remove('active');
+                    }
+                });
+
+                ticking = false;
+            });
+            ticking = true;
+        }
+    });
+
+    // Hide/show dots based on hero section visibility
+    const navDotsContainer = document.querySelector('.nav-dots');
+    const heroSection = document.querySelector('.hero-landing');
+
+    if (navDotsContainer && heroSection) {
+        window.addEventListener('scroll', () => {
+            const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+            const scrollPosition = window.scrollY + window.innerHeight;
+
+            // Show dots only when hero section is visible
+            if (window.scrollY < heroBottom - 100) {
+                navDotsContainer.style.opacity = '1';
+                navDotsContainer.style.pointerEvents = 'auto';
+            } else {
+                navDotsContainer.style.opacity = '0';
+                navDotsContainer.style.pointerEvents = 'none';
+            }
+        });
+    }
 }
 
 // === SMOOTH SCROLL ===

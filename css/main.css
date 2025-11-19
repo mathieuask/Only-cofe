@@ -230,18 +230,14 @@ a {
     color: var(--forest-green);
 }
 
-.brand-icon {
-    font-size: 1.75rem;
-    line-height: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .brand-text {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
     line-height: 1;
     display: flex;
     align-items: center;
+    letter-spacing: -0.02em;
 }
 
 .nav-menu {
@@ -2595,4 +2591,230 @@ tbody tr:hover {
         min-height: auto;
         padding: 48px 24px;
     }
+}
+
+/* === LANDING PAGE HERO HORIZONTAL === */
+.hero-landing {
+    margin-top: 72px;
+    height: calc(100vh - 72px);
+    position: relative;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.landing-slider {
+    display: flex;
+    height: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.landing-slider::-webkit-scrollbar {
+    display: none;
+}
+
+/* Base landing page */
+.landing-page {
+    min-width: 100vw;
+    max-width: 100vw;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.page-content {
+    position: relative;
+    z-index: 10;
+    padding: 2rem;
+    max-width: 800px;
+}
+
+/* Page 1: Welcome - Crème avec image */
+.page-1 {
+    background: linear-gradient(rgba(245, 239, 231, 0.7), rgba(232, 222, 208, 0.7)),
+                url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1920&q=80') center/cover;
+}
+
+.page-label {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #7A9B76;
+    margin-bottom: 2.5rem;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    display: inline-block;
+    backdrop-filter: blur(8px);
+}
+
+.page-title {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(5rem, 14vw, 11rem);
+    font-weight: 900;
+    color: #6B4423;
+    margin: 0 0 2rem 0;
+    letter-spacing: -0.06em;
+    line-height: 0.85;
+    text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.5);
+}
+
+.page-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(1.75rem, 5vw, 3rem);
+    font-weight: 700;
+    color: #6B4423;
+    margin: 0 0 1.25rem 0;
+    letter-spacing: -0.02em;
+}
+
+.page-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.375rem;
+    color: #8B7355;
+    margin: 0;
+    font-weight: 500;
+}
+
+/* Page 2: Locations - Marron + Image */
+.page-2 {
+    background: linear-gradient(rgba(107, 68, 35, 0.75), rgba(107, 68, 35, 0.75)),
+                url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1920&q=80') center/cover;
+}
+
+.page-2 .page-content {
+    color: #FFFFFF;
+}
+
+/* Page 3: Price - Vert + Image */
+.page-3 {
+    background: linear-gradient(rgba(122, 155, 118, 0.8), rgba(122, 155, 118, 0.8)),
+                url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1920&q=80') center/cover;
+}
+
+.page-3 .page-content {
+    color: #FFFFFF;
+}
+
+/* Page 4: Volume - Crème + Image */
+.page-4 {
+    background: linear-gradient(rgba(245, 239, 231, 0.75), rgba(245, 239, 231, 0.75)),
+                url('https://images.unsplash.com/photo-1511920170033-f8396924c348?w=1920&q=80') center/cover;
+}
+
+.page-4 .page-content {
+    color: #6B4423;
+    text-shadow: 0 1px 3px rgba(255, 255, 255, 0.5);
+}
+
+/* Page 5: Timeline - Marron foncé avec image */
+.page-5 {
+    background: linear-gradient(rgba(107, 68, 35, 0.85), rgba(82, 51, 24, 0.85)),
+                url('https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1920&q=80') center/cover;
+}
+
+.page-5 .page-content {
+    color: #FFFFFF;
+}
+
+/* Stats styling */
+.stat-big {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(8rem, 20vw, 16rem);
+    font-weight: 900;
+    line-height: 0.9;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.06em;
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.stat-text {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 1.5rem;
+}
+
+.page-subtext {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.375rem;
+    opacity: 0.85;
+    margin: 0;
+    font-weight: 500;
+}
+
+/* Button */
+.btn-explore {
+    display: inline-block;
+    margin-top: 3rem;
+    padding: 1.5rem 4rem;
+    background: linear-gradient(135deg, #F5EFE7 0%, #FFFFFF 100%);
+    color: #6B4423;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 3px solid #F5EFE7;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.btn-explore:hover {
+    transform: scale(1.08);
+}
+
+/* Navigation Dots */
+.nav-dots {
+    position: fixed;
+    bottom: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 1rem;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0.875rem 1.5rem;
+    border-radius: 50px;
+    backdrop-filter: blur(12px);
+    transition: opacity 0.3s ease;
+}
+
+.nav-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 2px solid transparent;
+}
+
+.nav-dot:hover {
+    background: rgba(255, 255, 255, 0.7);
+    transform: scale(1.2);
+}
+
+.nav-dot.active {
+    background: #FFFFFF;
+    width: 36px;
+    border-radius: 8px;
 }
