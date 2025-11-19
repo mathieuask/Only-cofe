@@ -123,20 +123,21 @@ a {
 .container {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 var(--space-sm);
+    padding: 0 var(--space-md);
+    width: 100%;
 }
 
 .section {
-    padding: var(--space-sm) 0;
+    padding: var(--space-2xl) 0;
     position: relative;
     background: var(--white);
-    height: 100vh;
+    min-height: 100vh;
     scroll-snap-align: start;
     scroll-snap-stop: always;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 /* Alternate cream backgrounds for visual rhythm */
@@ -168,7 +169,8 @@ a {
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--forest-green);
-    margin-bottom: var(--space-md);
+    margin-bottom: var(--space-sm);
+    margin-top: 0;
 }
 
 .section-dark .section-label {
@@ -176,7 +178,9 @@ a {
 }
 
 .section-title {
-    margin-bottom: var(--space-xs);
+    margin-top: 0;
+    margin-bottom: var(--space-lg);
+    text-align: left;
 }
 
 .section-intro {
@@ -184,6 +188,7 @@ a {
     color: var(--gray);
     margin-bottom: var(--space-xl);
     max-width: 600px;
+    text-align: left;
 }
 
 .section-dark .section-intro {
@@ -660,7 +665,7 @@ a {
 .team-section h3 {
     color: var(--cream-light);
     margin-bottom: var(--space-md);
-    text-align: center;
+    text-align: left;
 }
 
 .team-compact {
@@ -708,13 +713,14 @@ a {
 
 /* === VALUE PROPOSITION === */
 .value-section {
-    margin-top: var(--space-md);
-    margin-bottom: var(--space-md);
+    margin-top: var(--space-xl);
+    margin-bottom: var(--space-xl);
 }
 
 .value-section h3 {
     color: var(--cream-light);
-    text-align: center;
+    text-align: left;
+    margin-top: 0;
     margin-bottom: var(--space-lg);
     font-size: 1.75rem;
 }
@@ -726,17 +732,20 @@ a {
 }
 
 .value-item {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.08);
     padding: var(--space-sm);
-    border-radius: 4px;
+    border-radius: 12px;
     text-align: center;
-    transition: var(--transition);
-    border-left: 3px solid var(--accent-light);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .value-item:hover {
-    background: rgba(255, 255, 255, 0.08);
-    transform: translateY(-4px);
+    background: rgba(255, 255, 255, 0.12);
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+    border-color: var(--sage-green);
 }
 
 .value-item strong {
@@ -755,19 +764,23 @@ a {
 
 /* === BUSINESS IMPACT === */
 .impact-section {
-    margin-top: var(--space-2xl);
+    margin-top: var(--space-xl);
 }
 
 .impact-section h3 {
     color: var(--cream-light);
-    text-align: center;
+    text-align: left;
+    margin-top: 0;
     margin-bottom: var(--space-lg);
     font-size: 1.75rem;
 }
 
 .section-dark .block {
-    background: rgba(255, 255, 255, 0.05);
-    border-left: 4px solid var(--accent-light);
+    background: rgba(255, 255, 255, 0.08);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
 }
 
 .section-dark .block h3,
@@ -781,7 +794,10 @@ a {
 }
 
 .section-dark .block:hover {
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.12);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+    border-color: var(--sage-green);
 }
 
 /* === OBJECTIVES === */
@@ -792,19 +808,19 @@ a {
 }
 
 .objective-card {
-    background: var(--white);
+    background: linear-gradient(135deg, #FFFFFF 0%, #F9F9F9 100%);
     padding: var(--space-md);
-    border-radius: 12px;
-    border-left: 4px solid var(--forest-green);
-    box-shadow: var(--shadow-sm);
-    transition: var(--transition);
+    border-radius: 16px;
+    border: 2px solid rgba(122, 155, 118, 0.2);
+    box-shadow: 0 4px 16px rgba(107, 68, 35, 0.08);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     text-align: center;
 }
 
 .objective-card:hover {
-    box-shadow: var(--shadow-md);
-    transform: translateY(-4px);
-    border-left-color: var(--sage-green);
+    box-shadow: 0 12px 36px rgba(107, 68, 35, 0.15);
+    transform: translateY(-8px);
+    border-color: var(--sage-green);
 }
 
 .objective-icon {
@@ -827,14 +843,15 @@ a {
 /* === REQUIREMENTS & DELIVERABLES === */
 .requirements-section,
 .deliverables-section {
-    margin-top: var(--space-sm);
+    margin-top: var(--space-xl);
 }
 
 .requirements-section h3,
 .deliverables-section h3 {
     color: var(--cream-light);
-    text-align: center;
-    margin-bottom: var(--space-sm);
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: var(--space-lg);
     font-size: 1.5rem;
 }
 
@@ -848,16 +865,19 @@ a {
     display: flex;
     flex-direction: column;
     gap: var(--space-xs);
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.08);
     padding: var(--space-sm);
-    border-radius: 4px;
-    border-left: 4px solid var(--accent-light);
-    transition: var(--transition);
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .req-card:hover {
-    background: rgba(255, 255, 255, 0.08);
-    transform: translateX(4px);
+    background: rgba(255, 255, 255, 0.12);
+    transform: translateY(-6px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+    border-color: var(--sage-green);
 }
 
 .req-number {
@@ -899,10 +919,11 @@ a {
 .funding-note {
     margin-top: var(--space-sm);
     padding: var(--space-sm);
-    background: rgba(216, 67, 21, 0.2);
-    border: 2px solid var(--accent-light);
-    border-radius: 4px;
-    text-align: center;
+    background: rgba(122, 155, 118, 0.15);
+    border: 2px solid var(--sage-green);
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .funding-note p {
@@ -924,16 +945,19 @@ a {
 }
 
 .deliverable-card {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.08);
     padding: var(--space-sm);
-    border-radius: 4px;
-    border-left: 4px solid var(--accent-light);
-    transition: var(--transition);
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .deliverable-card:hover {
-    background: rgba(255, 255, 255, 0.08);
-    transform: translateY(-4px);
+    background: rgba(255, 255, 255, 0.12);
+    transform: translateY(-6px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+    border-color: var(--sage-green);
 }
 
 .deliverable-header {
@@ -953,13 +977,14 @@ a {
 }
 
 .week-badge {
-    background: var(--sage-green);
+    background: linear-gradient(135deg, var(--sage-green), var(--forest-green));
     color: var(--white);
-    padding: 4px 12px;
-    border-radius: 4px;
+    padding: 6px 14px;
+    border-radius: 8px;
     font-size: 0.75rem;
     font-weight: 700;
     text-transform: uppercase;
+    box-shadow: 0 2px 8px rgba(122, 155, 118, 0.3);
 }
 
 .deliverable-card p {
@@ -986,10 +1011,17 @@ a {
 }
 
 .simple-list-block {
-    background: var(--white);
+    background: linear-gradient(135deg, #FFFFFF 0%, #FAFAFA 100%);
     padding: var(--space-sm);
-    border-radius: 4px;
-    box-shadow: var(--shadow-sm);
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(107, 68, 35, 0.08);
+    border: 2px solid rgba(122, 155, 118, 0.15);
+    transition: all 0.3s ease;
+}
+
+.simple-list-block:hover {
+    box-shadow: 0 12px 32px rgba(107, 68, 35, 0.15);
+    transform: translateY(-4px);
 }
 
 .simple-list-block h3 {
@@ -1009,8 +1041,17 @@ a {
 
 .simple-risk-list li,
 .simple-constraint-list li {
-    padding-left: 0;
-    position: relative;
+    padding: var(--space-sm);
+    background: rgba(122, 155, 118, 0.05);
+    border-radius: 8px;
+    border-left: 3px solid var(--sage-green);
+    transition: all 0.3s ease;
+}
+
+.simple-risk-list li:hover,
+.simple-constraint-list li:hover {
+    background: rgba(122, 155, 118, 0.1);
+    transform: translateX(4px);
 }
 
 .simple-risk-list li::before,
@@ -1173,7 +1214,7 @@ a {
 .stakeholders-section h3 {
     color: var(--coffee-dark);
     margin-bottom: var(--space-md);
-    text-align: center;
+    text-align: left;
 }
 
 .stakeholders-compact {
@@ -1622,8 +1663,14 @@ tbody tr:hover {
     margin-bottom: var(--space-xs);
     min-width: 180px;
     position: relative;
-    box-shadow: 0 4px 12px rgba(107, 68, 35, 0.12);
-    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(107, 68, 35, 0.15);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.phase-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(107, 68, 35, 0.2);
 }
 
 .phase-box::before {
@@ -1677,36 +1724,38 @@ tbody tr:hover {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(245, 239, 231, 0.95) 100%);
     padding: var(--space-xs) var(--space-sm);
     border-left: 3px solid var(--sage-green);
-    border-radius: 6px;
+    border-radius: 8px;
     color: #6B4423;
     font-family: 'Inter', sans-serif;
     font-size: 0.8125rem;
     font-weight: 500;
-    transition: var(--transition);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     border: 1px solid rgba(122, 155, 118, 0.3);
-    box-shadow: 0 2px 4px rgba(107, 68, 35, 0.08);
+    box-shadow: 0 2px 6px rgba(107, 68, 35, 0.1);
 }
 
 .task-item:hover {
     background: linear-gradient(135deg, #FFFFFF 0%, #F5EFE7 100%);
-    transform: translateX(4px);
+    transform: translateX(6px);
     border-left-color: var(--forest-green);
-    box-shadow: 0 4px 8px rgba(107, 68, 35, 0.12);
+    box-shadow: 0 4px 12px rgba(107, 68, 35, 0.15);
 }
 
 /* === APPROACH BOX === */
 .approach-box {
     margin-top: var(--space-xs);
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.1);
     padding: var(--space-sm);
-    border-radius: 8px;
-    border: 2px solid var(--cream-light);
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .approach-box h3 {
     color: var(--cream-light);
-    margin-bottom: var(--space-xs);
-    text-align: center;
+    margin-top: 0;
+    margin-bottom: var(--space-md);
+    text-align: left;
     font-size: 1.125rem;
 }
 
@@ -1718,16 +1767,18 @@ tbody tr:hover {
 
 .approach-item {
     padding: var(--space-xs);
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 4px;
-    border-left: 3px solid var(--sage-green);
-    transition: var(--transition);
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
 .approach-item:hover {
-    background: rgba(255, 255, 255, 0.08);
-    transform: translateX(4px);
-    border-left-color: var(--forest-green);
+    background: rgba(255, 255, 255, 0.12);
+    transform: translateY(-4px);
+    border-color: var(--sage-green);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
 }
 
 .approach-item strong {
@@ -1854,7 +1905,7 @@ tbody tr:hover {
 .quality-compact h3 {
     color: var(--cream-light);
     margin-bottom: var(--space-md);
-    text-align: center;
+    text-align: left;
 }
 
 .quality-grid {
@@ -2088,6 +2139,7 @@ tbody tr:hover {
 
 .risks-intro h3 {
     margin-bottom: var(--space-sm);
+    text-align: left;
 }
 
 .risk-table {
@@ -2250,18 +2302,20 @@ tbody tr:hover {
 }
 
 .team-card {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.08);
     padding: var(--space-sm);
-    border-radius: 8px;
+    border-radius: 16px;
     text-align: center;
-    border: 2px solid rgba(255, 255, 255, 0.1);
-    transition: var(--transition);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .team-card:hover {
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.12);
     border-color: var(--accent-light);
-    transform: translateY(-8px);
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
 }
 
 .team-avatar {
@@ -2277,8 +2331,14 @@ tbody tr:hover {
     font-weight: 900;
     font-family: var(--font-display);
     margin: 0 auto var(--space-xs);
-    border: 2px solid var(--espresso-dark);
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.team-card:hover .team-avatar {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(122, 155, 118, 0.5);
 }
 
 .team-card h3 {
@@ -2846,9 +2906,7 @@ tbody tr:hover {
 
 /* === PROBLEM SECTION SIMPLE & MODERN === */
 .problem-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: linear-gradient(135deg, #FAFAFA 0%, #F5EFE7 100%);
 }
 
 .problem-section .container {
@@ -2874,16 +2932,18 @@ tbody tr:hover {
 }
 
 .problem-block {
-    background: var(--white);
+    background: linear-gradient(135deg, #FFFFFF 0%, #FAFAFA 100%);
     padding: var(--space-md);
-    border-radius: 12px;
-    border-left: 4px solid var(--sage-green);
+    border-radius: 16px;
+    border: 2px solid rgba(122, 155, 118, 0.2);
     transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(107, 68, 35, 0.08);
 }
 
 .problem-block:hover {
-    box-shadow: 0 8px 24px rgba(107, 68, 35, 0.12);
-    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(107, 68, 35, 0.15);
+    transform: translateY(-6px);
+    border-color: var(--sage-green);
 }
 
 .problem-block h3 {
@@ -2915,17 +2975,20 @@ tbody tr:hover {
     font-size: 0.875rem;
     line-height: 1.5;
     color: var(--coffee-medium);
-    padding-left: 1.5rem;
-    position: relative;
+    padding: var(--space-sm);
+    background: rgba(122, 155, 118, 0.05);
+    border-radius: 8px;
+    border-left: 3px solid var(--sage-green);
+    transition: all 0.3s ease;
+}
+
+.problem-block li:hover {
+    background: rgba(122, 155, 118, 0.1);
+    transform: translateX(4px);
 }
 
 .problem-block li::before {
-    content: '•';
-    position: absolute;
-    left: 0;
-    color: var(--sage-green);
-    font-weight: 700;
-    font-size: 1.25rem;
+    display: none;
 }
 
 .problem-block li strong {
