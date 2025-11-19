@@ -281,45 +281,32 @@ a {
     color: var(--forest-green);
     background: var(--light-green);
     font-weight: 600;
-    box-shadow: 0 2px 8px rgba(45, 80, 22, 0.15);
-}
-
-.nav-link.active::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60%;
-    height: 2px;
-    background: var(--forest-green);
-    border-radius: 2px 2px 0 0;
 }
 
 /* Burger Menu (Mobile) */
 .burger {
     display: none;
     flex-direction: column;
-    gap: 6px;
+    gap: 5px;
     cursor: pointer;
-    padding: 8px;
+    padding: 10px;
     background: transparent;
     border: none;
+    border-radius: 6px;
     transition: var(--transition);
     position: relative;
     z-index: 1001;
 }
 
 .burger:hover {
-    background: var(--light-green);
-    border-radius: 6px;
+    background: rgba(232, 243, 229, 0.3);
 }
 
 .burger span {
-    width: 28px;
-    height: 3px;
+    width: 24px;
+    height: 2px;
     background: var(--coffee-dark);
-    border-radius: 3px;
+    border-radius: 2px;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     transform-origin: center;
 }
@@ -328,8 +315,16 @@ a {
     background: var(--forest-green);
 }
 
+.burger.active {
+    background: var(--light-green);
+}
+
+.burger.active span {
+    background: var(--forest-green);
+}
+
 .burger.active span:nth-child(1) {
-    transform: rotate(45deg) translate(7px, 7px);
+    transform: rotate(45deg) translate(6px, 6px);
 }
 
 .burger.active span:nth-child(2) {
@@ -338,7 +333,7 @@ a {
 }
 
 .burger.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(7px, -7px);
+    transform: rotate(-45deg) translate(6px, -6px);
 }
 
 /* === PROGRESS BAR === */
